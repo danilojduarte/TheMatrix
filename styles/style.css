@@ -9,11 +9,58 @@
 
 :root {
     --bg-color: #111111;
-    --text-color: #fff;
+    --text-color: #36ba01;
     --main-color: #333333;
     --other-color: #8e8e8e;
     --second-color: #1d1d1d;
 
     --h1-font: 6rem;
     --p-font: 1.1rem;
+}
+
+
+body {
+    background: var(--bg-color);
+    color: var(--text-color);
+}
+header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    padding: 25px 9%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transition: all .6s ease;
+}
+.logo img {
+    width: 100%;
+    height: auto;
+}
+.navbar {
+    display: flex;
+}
+.navbar a {
+    display: inline-block;
+    font-size: var(--p-font);
+    font-weight: 400;
+    color: var(--other-color);
+    margin: 0 35px;
+    padding: 4px 0;
+    text-transform: uppercase;
+    border-bottom: 2px solid transparent;
+    transition: all .6s ease;
+}
+.navbar a:hover {
+    color: var(--text-color);
+    border-bottom: 2px solid var(--text-color);
+}
+.nav-right {
+    display: flex;
+    align-items: center;
+}
+.nav-right i {
+    
 }
