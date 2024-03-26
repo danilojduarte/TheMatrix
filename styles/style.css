@@ -93,3 +93,46 @@ header {
     cursor: pointer;
     display: none;
 }
+
+section {
+    padding: 0 15%;
+}
+.hero {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background: url(../assets/bg.png);
+    background-size: cover;
+    background-position: center;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 8px;
+}
+.hero-img img {
+    width: 750px;
+    height: 500px;
+    object-fit: contain;
+}
+.hero-text h1 {
+    font-size: 4rem;
+    line-height: 1.1;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.hero-text h2, h5 {
+    font-size: 1.8rem;
+    color: var(--other-color);
+    line-height: 1.1;
+    margin-bottom: 18px;
+    text-transform: capitalize;
+}
+.hero-text p {
+    width: 100%;
+    max-width: 500px;
+    font-size: var(--p-font);
+    color: var(--other-color);
+    line-height: 18px;
+    margin-bottom: 20px;
+    text-align: justify;
+}
