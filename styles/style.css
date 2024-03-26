@@ -136,3 +136,33 @@ section {
     margin-bottom: 20px;
     text-align: justify;
 }
+.btn {
+    display: inline-block;
+    padding: 14px 25px;
+    color: var(--text-color);
+    background: var(--main-color);
+    font-size: 18px;
+    border-radius: 18px;
+    margin-right: 20px;
+    transition: all .5s ease;
+}
+.btn:hover {
+    background: blue;
+    color: #FFF;
+    transform: scale(1.1);
+}
+.btn2 {
+    display: inline-block;
+    padding: 14px 25px;
+    color: var(--text-color);
+    background: var(--main-color);
+    font-size: 18px;
+    border-radius: 18px;
+    margin-right: 20px;
+    transition: all .5s ease;
+}
+.btn2:hover {
+    background: red;
+    color: #FFF;
+    transform: scale(1.1);
+}
