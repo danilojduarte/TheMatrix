@@ -138,8 +138,8 @@ section {
 }
 .btn {
     display: inline-block;
-    padding: 14px 25px;
-    color: var(--text-color);
+    padding: 10px 22px;
+    color: #fff;
     background: var(--main-color);
     font-size: 18px;
     border-radius: 18px;
@@ -148,13 +148,13 @@ section {
 }
 .btn:hover {
     background: blue;
-    color: #FFF;
+    color: var(--text-color);
     transform: scale(1.1);
 }
 .btn2 {
     display: inline-block;
-    padding: 14px 25px;
-    color: var(--text-color);
+    padding: 10px 22px;
+    color: #fff;
     background: var(--main-color);
     font-size: 18px;
     border-radius: 18px;
@@ -163,6 +163,6 @@ section {
 }
 .btn2:hover {
     background: red;
-    color: #FFF;
+    color: var(--text-color);
     transform: scale(1.1);
 }
