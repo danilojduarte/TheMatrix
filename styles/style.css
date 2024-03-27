@@ -189,4 +189,10 @@ section {
     align-items: center;
     justify-content: center;
     background: var(--second-color);
+    border: 1px solid var(--main-color);
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+}
+.box:hover{
+    transform: scale(1.1);
 }
