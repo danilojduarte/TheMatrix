@@ -48,7 +48,7 @@
 
     <section class="hero">
         <div class="hero-img">
-            <img src="assets/TheMatrix01.jpg" alt="">
+            <img src="assets/TheMatrix01.jpg" class="one" alt="">
         </div>
         <div class="hero-text">
             <h1>The Matrix</h1>
@@ -71,19 +71,27 @@
 
     <div class="content">
         <div class="box">
-            <li><img src="assets/TheMatrix01.jpg"></li>
+            <li>
+                <img src="assets/TheMatrix01.jpg" onclick="slider('./assets/TheMatrix01.jpg')">
+            </li>
         </div>
 
         <div class="box">
-            <li><img src="assets/TheMatrix02.jpg"></li>
+            <li>
+                <img src="assets/TheMatrix02.jpg" onclick="slider('./assets/TheMatrix02.jpg')">
+            </li>
         </div>
 
         <div class="box">
-            <li><img src="assets/TheMatrix03.jpg"></li>
+            <li>
+                <img src="assets/TheMatrix03.jpg" onclick="slider('./assets/TheMatrix03.jpg')">
+            </li>
         </div>
 
         <div class="box">
-            <li><img src="assets/TheMatrix04.jpg"></li>
+            <li>
+                <img src="assets/TheMatrix04.jpg"onclick="slider('./assets/TheMatrix04.jpg')">
+            </li>
         </div>
     </div>
 
@@ -93,6 +101,12 @@
 
 
     <script src="js/script.js"></script>
+
+    <script type="text/javascript">
+        function slider(anything) {
+            document.querySelector('.one').src = anything;
+        }
+    </script>
 </body>
 
 </html>
